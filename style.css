@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Mondserrat;
+    src: url(../lm-2024/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: Mondserrat, sans-serif;
+    background-color: rgb(33, 33, 36);
+}
+
+.align {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-area .header img{
+    width: 64px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.login-area .header {
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+
+.login-area {
+    background-color: rgb(40, 40, 44);
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.login-area form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-area input {
+    margin-top: 10px;
+    background-color: rgb(230,230,230);
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    
+}
+
+.login-area input::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+
+.login-area .botao{
+    transition: all ease-out .2s;
+    font-family: Mondserrat, sans-serif;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(71, 89, 255);
+    box-shadow: 0 0 0px 0px inset rgb(71, 89, 255);
+    
+    
+}
+.login-area .botao:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 40px 40px inset rgb(71, 89, 255);
+}
+
+.login-area .botao:active{
+    cursor: pointer;
+    box-shadow: rgba(179, 179, 202, 0.25) 0px 30px 60px -12px inset, rgba(240, 204, 204, 0.3) 0px 18px 36px -18px inset;
+    border-color: white;
+    transition: none;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(71, 89, 255);
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
